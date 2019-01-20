@@ -1,0 +1,19 @@
+{% extends 'base-layout.twig' %}
+
+{% block content %}
+
+    <h4>Home fruits!</h4>
+
+    <div>
+
+        <ul>
+
+            {% for fruit in fruits %}
+                <li>{{ fruit }}</li>
+            {% endfor %}
+
+        </ul>
+
+    </div>
+
+{% endblock content %}
