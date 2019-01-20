@@ -25,6 +25,13 @@ class HomeController extends BaseController {
 
     }//indexAction
 
+    public function adminAction(  ){
+
+
+        echo '<h1>Hello , Admin</h1>';
+
+    }//adminAction
+
     public function error404Action(  ){
 
         $template = $this->twig->load('404.twig');
